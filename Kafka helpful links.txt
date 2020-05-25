@@ -1,0 +1,5 @@
+Kafka helpful links
+
+https://sookocheff.com/post/kafka/kafka-in-a-nutshell/
+
+http://kafka.apache.org/documentation.html

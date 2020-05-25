@@ -1,0 +1,24 @@
+Kafka Basics
+
+Apache Kafka is publish-subscribe based fault tolerant messaging system. It is fast, scalable and distributed by design.
+
+All incoming data is first placed in Kafka and all outgoing data is read from Kafka. 
+
+Kafka centralizes communication between producers of data and consumers of that data.
+
+A Messaging System is responsible for transferring data from one application to another, so the applications can focus on data, but not worry about how to share it.
+
+Two types of messaging patterns are available − one is point to point and the other is publish-subscribe (pub-sub) messaging system. Most of the messaging patterns follow pub-sub.
+
+In a point-to-point system, messages are persisted in a queue. One or more consumers can consume the messages in the queue, but a particular message can be consumed by a maximum of one consumer only. Once a consumer reads a message in the queue, it disappears from that queue. The typical example of this system is an Order Processing System, where each order will be processed by one Order Processor, but Multiple Order Processors can work as well at the same time.
+
+Kafka is built on top of the ZooKeeper synchronization service. It integrates very well with Apache Storm and Spark for real-time streaming data analysis.
+
+
+Reliability − Kafka is distributed, partitioned, replicated and fault tolerance.
+
+Scalability − Kafka messaging system scales easily without down time..
+
+Durability − Kafka uses Distributed commit log which means messages persists on disk as fast as possible, hence it is durable..
+
+Performance − Kafka has high throughput for both publishing and subscribing messages. It maintains stable performance even many TB of messages are stored.
